@@ -151,7 +151,6 @@ h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 30px;
-  /* or 125% */
   letter-spacing: -0.5px;
   color: #05376B;
 }
@@ -179,8 +178,9 @@ h4 {
   color: #05376B !important;
 }
 
-.nav-link {
+.breadcrumb-item a {
   color: #05376B !important;
+  text-decoration: none;
 }
 
 .data {
